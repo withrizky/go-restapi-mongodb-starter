@@ -1,0 +1,24 @@
+myapp/
+│
+├── cmd/
+│   └── server/
+│       └── main.go
+│
+├── internal/
+│   ├── config/
+│   │   └── config.go
+│   ├── database/
+│   │   └── mongo.go
+│   ├── handler/
+│   │   └── user_handler.go
+│   ├── model/
+│   │   └── user.go
+│   ├── repository/
+│   │   └── user_repo.go
+│   ├── service/
+│   │   └── user_service.go
+│   └── router/
+│       └── router.go
+│
+├── go.mod
+└── .env
